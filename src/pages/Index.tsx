@@ -121,7 +121,7 @@ const Index = () => {
       </div>
 
       {/* Menu Content */}
-      <div className="container mx-auto px-6 py-12 max-w-4xl">
+      <div className="container mx-auto px-4 md:px-6 py-12 max-w-4xl">
         {menuSections.map((section, sectionIndex) => (
           <div
             key={section.title}
@@ -146,25 +146,32 @@ const Index = () => {
                 >
                   <div className="md:flex">
                     {/* Image */}
-                    <div className="md:w-48 md:flex-shrink-0">
+                    <div className="w-full md:w-48 md:flex-shrink-0">
                       <img
                         src={item.image}
                         alt={item.name}
-                        className="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="w-full h-56 md:h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                     </div>
                     
                     {/* Content */}
-                    <div className="p-6 flex justify-between items-start flex-1">
-                      <div className="flex-1 pr-4">
-                        <h3 className="text-xl md:text-2xl font-serif text-yellow-300 mb-2 group-hover:text-yellow-400 transition-colors duration-300">
+                    <div className="p-6 flex flex-col md:flex-row md:justify-between md:items-start flex-1">
+                      <div className="flex-1 md:pr-4 mb-4 md:mb-0">
+                        <h3 className="text-xl md:text-2xl font-serif text-yellow-300 mb-3 group-hover:text-yellow-400 transition-colors duration-300">
                           {item.name}
                         </h3>
-                        <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                        <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300 mb-4 md:mb-0">
                           {item.description}
                         </p>
+                        {/* Price on mobile - below description */}
+                        <div className="md:hidden">
+                          <span className="text-2xl font-serif text-yellow-400 group-hover:text-yellow-300 transition-colors duration-300">
+                            {item.price}
+                          </span>
+                        </div>
                       </div>
-                      <div className="flex-shrink-0">
+                      {/* Price on desktop - to the side */}
+                      <div className="hidden md:flex flex-shrink-0">
                         <span className="text-2xl md:text-3xl font-serif text-yellow-400 group-hover:text-yellow-300 transition-colors duration-300">
                           {item.price}
                         </span>
