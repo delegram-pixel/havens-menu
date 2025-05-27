@@ -12,14 +12,15 @@ const Index = () => {
 
   const menuSections = [
     {
-      title: "Starters",
+      title: "Main Dishes",
       items: [
         {
-          name: "Truffle Arancini",
-          description: "Crispy risotto balls with truffle aioli",
-          price: "$12",
-          image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop"
+          name: "Fisherman Soup",
+          description: "A rich and spicy Nigerian seafood soup made with fresh fish, prawns, periwinkle, and crab, simmered in a savory broth with local spices.",
+          price: "$1500",
+          image: "/images/fisherman-soup.jpg"
         },
+        
         {
           name: "Smoked Salmon Blini",
           description: "Dill crème fraîche, lemon zest",
@@ -112,7 +113,7 @@ const Index = () => {
       <div className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-yellow-500/20">
         <div className="container mx-auto px-6 py-6">
           <h1 className="text-4xl md:text-5xl font-serif text-center text-yellow-400 tracking-wide">
-            À LA CARTE
+           HAVEN'S KITCHEN
           </h1>
           <p className="text-center text-yellow-200/80 mt-2 text-sm tracking-widest uppercase">
             Fine Dining Experience
@@ -201,9 +202,9 @@ const Index = () => {
             <div>
               <h3 className="text-yellow-400 font-serif text-xl mb-4">Location</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
-                123 Gourmet Avenue<br />
-                Culinary District<br />
-                New York, NY 10013
+               Izara Filling Station<br />
+                Off Asong Ama Traffic Light<br />
+                Uyo, Akwa Ibom State
               </p>
             </div>
             
@@ -221,16 +222,16 @@ const Index = () => {
             <div>
               <h3 className="text-yellow-400 font-serif text-xl mb-4">Hours</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Monday - Thursday: 5:00 PM - 10:00 PM<br />
-                Friday - Saturday: 5:00 PM - 11:00 PM<br />
-                Sunday: Closed
+                Monday - Thursday: 9:00 PM - 10:00 PM<br />
+                Friday - Saturday: 9:00 PM - 11:00 PM<br />
+                Sunday: 11:00 PM - 11:00 PM
               </p>
             </div>
           </div>
           
           <div className="text-center mt-12 pt-8 border-t border-yellow-500/10">
             <p className="text-gray-500 text-xs">
-              © 2024 À La Carte. All rights reserved.
+              © 2025 Haven's Kitchen. All rights reserved.
             </p>
           </div>
         </div>
