@@ -17,26 +17,26 @@ const Index = () => {
         {
           name: "Fisherman Soup",
           description: "A rich and spicy Nigerian seafood soup made with fresh fish, prawns, periwinkle, and crab, simmered in a savory broth with local spices.",
-          price: "$1500",
+          price: "$15000",
           image: "/images/fisherman-soup.jpg"
         },
         
         {
-          name: "Smoked Salmon Blini",
-          description: "Dill crème fraîche, lemon zest",
-          price: "$14",
+          name: "Afang Soup",
+          description: "A creamy and flavorful soup made with afang leaves, palm oil, and a blend of local spices.",
+          price: "$14000",
           image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop"
         },
         {
-          name: "Oysters Rockefeller",
-          description: "Fresh Blue Point oysters, spinach, Pernod",
-          price: "$18",
-          image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&h=300&fit=crop"
+          name: "White Soup",
+          description: "A creamy and flavorful soup made with white soup leaves, palm oil, and a blend of local spices.",
+          price: "$18000",
+          image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop"
         },
         {
-          name: "Foie Gras Terrine",
-          description: "Sauternes gelée, brioche toast",
-          price: "$24",
+          name: "Native Soup",
+          description: "A creamy and flavorful soup made with native leaves, palm oil, and a blend of local spices.",
+          price: "$24000",
           image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop"
         }
       ]
